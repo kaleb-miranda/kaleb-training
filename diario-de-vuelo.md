@@ -118,3 +118,21 @@ Revisado `estudio_con_clave.md` (254 preguntas de la Certificación APX).
 - Streams + equals/hashCode + distinct.
 
 **Estrategia ética acordada:** usar el examen como brújula de TEMAS (calibrar qué drill), no como banco de respuestas memorizadas. La meta es comprensión, no memorización.
+
+---
+
+## Sesión 5 - 14 de octubre de 2026
+
+**Tema trabajado:** Fase 0.5 (Git y terminal) — fundamentos de Git.
+
+**Aprendizaje principal:** Modelo de tres áreas (directorio de trabajo → staging → historial) y flujo básico: `init`, `status`, `add`, `commit`, `log`. `.gitignore` con criterio (basura de compilación + material confidencial). Conventional commits y `git commit --amend`.
+
+**Dificultad o error más relevante:** Primer commit con mensaje "mi primer commit" (sin formato conventional commit); se corrigió con `--amend`.
+
+**Lección clave (escrita por Kaleb):** «Aprendí qué es Git, quién lo creó y para qué sirve, los primeros comandos básicos y los formatos de commit — que no debe ser un comentario a la deriva.»
+
+**Commit:** `f147898` — `chore: inicializar repositorio con estructura base y ejercicios de diagnóstico`
+
+**Próximo paso:** `git diff`, `branch`/`merge`, crear repo en GitHub y hacer `push`. Script bash de logs (entregable de Fase 0.5).
+
+**Lección de ética profesional:** El `.gitignore` no solo protege el repo de basura; protege el empleo de filtrar material confidencial (`estudio_con_clave.md` de BBVA NO debe subirse a un repo público).
