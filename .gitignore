@@ -1,0 +1,18 @@
+# Artefactos de compilación
+out/
+*.class
+.clinerules
+
+# Python (si queda algo)
+__pycache__/
+*.pyc
+
+# IDE
+.idea/
+.vscode/
+
+# Variables de entorno (secretos)
+.env
+
+# Material confidencial del trabajo — NUNCA debe salir de esta máquina
+estudio_con_clave.md
