@@ -136,3 +136,21 @@ Revisado `estudio_con_clave.md` (254 preguntas de la Certificación APX).
 **Próximo paso:** `git diff`, `branch`/`merge`, crear repo en GitHub y hacer `push`. Script bash de logs (entregable de Fase 0.5).
 
 **Lección de ética profesional:** El `.gitignore` no solo protege el repo de basura; protege el empleo de filtrar material confidencial (`estudio_con_clave.md` de BBVA NO debe subirse a un repo público).
+
+---
+
+## Sesión 6 - 15 de octubre de 2026
+
+**Tema trabajado:** Fase 0.5 (Git y terminal) — `diff`, ramas (`branch`/`switch`/`merge`) y script bash de logs.
+
+**Aprendizaje principal:** Pipeline Unix (`grep -E` con regex → `awk` → `sort` → `uniq -c` → `sort -nr` → `head`). Crear script `.sh` con shebang `#!/bin/bash` + `chmod +x` + ejecutar con `./`. Flujo de ramas: crear rama → commit → merge **fast-forward** (cuando master no se movió, solo "alcanza" a la rama, sin commit de merge). Conectó el flujo con el mundo real: feature → (PR) → master → producción (GitHub Flow).
+
+**Dificultad o error más relevante:** Confundió "pegar comandos en la terminal" con "crear un archivo de script" (el archivo no existía → `chmod` falló). Typo en `git add analizar_log.sh` (corregido por sí mismo leyendo el error).
+
+**Lección clave (escrita por Kaleb):** «Hoy aprendí a moverme entre ramas, crear ramas y las buenas prácticas para nombrar cada una de ellas, además de comandos como `git diff` para ver qué cambios hubo en específico, y los primeros comandos en bash para hacer scripts de automatización.»
+
+**Commit:** `d0307e3` — `feat: se añaden primero scripts al repositorio`
+
+**Próximo paso:** Crear repo en GitHub, `push`, Pull Request y code review. Conflictos de merge (cuando ambas ramas tienen commits propios). `.gitattributes` para CRLF/LF.
+
+**Nota de ética:** Preguntó si la automatización "sirve para hackear". Se le enseñó: las herramientas son neutrales (como un cuchillo); lo que define al profesional es la autorización y el daño. Su habilidad se pagará para proteger sistemas, no para romperlos.
