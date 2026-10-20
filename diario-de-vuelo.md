@@ -154,3 +154,21 @@ Revisado `estudio_con_clave.md` (254 preguntas de la Certificación APX).
 **Próximo paso:** Crear repo en GitHub, `push`, Pull Request y code review. Conflictos de merge (cuando ambas ramas tienen commits propios). `.gitattributes` para CRLF/LF.
 
 **Nota de ética:** Preguntó si la automatización "sirve para hackear". Se le enseñó: las herramientas son neutrales (como un cuchillo); lo que define al profesional es la autorización y el daño. Su habilidad se pagará para proteger sistemas, no para romperlos.
+
+---
+
+## Sesión 7 - 16 de octubre de 2026
+
+**Tema trabajado:** Fase 0.5 (Git y terminal) — GitHub: repo remoto, `remote add`, `push`.
+
+**Aprendizaje principal:** Verificación de seguridad antes de subir (`git ls-files` para confirmar que el `.gitignore` excluye el material confidencial). `git remote add origin <url>` + `git push -u origin master`. Portafolio público en GitHub: `https://github.com/kaleb-miranda/kaleb-training`.
+
+**Dificultad o error más relevante:** Sin dificultades significativas.
+
+**Lección clave (escrita por Kaleb):** «El día de hoy aprendí a subir proyectos a la nube (GitHub), además de comandos para usar el repositorio remoto, y a listar lo que tenemos en el repositorio local.»
+
+**Commit:** `docs: se actualiza diario de vuelo` + push a GitHub.
+
+**Próximo paso:** Pull Request y code review. Conflictos de merge (cuando ambas ramas tienen commits propios). Más comandos de terminal: `sed`, `find`, `curl`, `ssh`.
+
+**Hito:** Fase 0.5 — AMBOS entregables completados (repo en GitHub + script bash de logs).
