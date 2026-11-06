@@ -172,3 +172,21 @@ Revisado `estudio_con_clave.md` (254 preguntas de la Certificación APX).
 **Próximo paso:** Pull Request y code review. Conflictos de merge (cuando ambas ramas tienen commits propios). Más comandos de terminal: `sed`, `find`, `curl`, `ssh`.
 
 **Hito:** Fase 0.5 — AMBOS entregables completados (repo en GitHub + script bash de logs).
+
+---
+
+## Sesión 8 - 19 de octubre de 2026
+
+**Tema trabajado:** Fase 0.5 (Git) — Pull Request y code review (flujo completo).
+
+**Aprendizaje principal:** Flujo completo de PR: branch → commit → push → PR en GitHub → merge → pull. Limpieza de ramas muertas (`git branch -d`, borrado seguro vs `-D`). `.gitattributes` con `* text=auto` para normalizar saltos de línea (CRLF/LF).
+
+**Dificultad o error más relevante:** Sin dificultades significativas.
+
+**Lección clave (escrita por Kaleb):** «Aprendí a hacer pull request a mi repositorio remoto para que otro dev o tech lead lo apruebe después de su revisión, además de crear una rama remota para poder mergearla.»
+
+**Commit:** `811b49d` (docs diario) + `497c342` (gitattributes) + merge `2dd2c0f`.
+
+**Próximo paso:** FASE 0.5 esencialmente completa. Siguiente: **Fase 1 (Java puro — lógica, colecciones, algoritmos)**. Conflictos de merge se cubrirán cuando ocurran naturalmente.
+
+**Hito:** Fase 0.5 COMPLETA (Git + GitHub + script bash + PR y code review).
