@@ -190,3 +190,21 @@ Revisado `estudio_con_clave.md` (254 preguntas de la Certificación APX).
 **Próximo paso:** FASE 0.5 esencialmente completa. Siguiente: **Fase 1 (Java puro — lógica, colecciones, algoritmos)**. Conflictos de merge se cubrirán cuando ocurran naturalmente.
 
 **Hito:** Fase 0.5 COMPLETA (Git + GitHub + script bash + PR y code review).
+
+---
+
+## Sesión 9 - 5 de noviembre de 2026
+
+**Tema trabajado:** Fase 1 (Java puro) — Strings: String pool, `==` vs `equals`, `intern()`, inmutabilidad.
+
+**Aprendizaje principal:** Strings inmutables (todos los métodos `concat`/`toUpperCase`/`replace` crean un String nuevo; si no se asigna, se desecha). String pool: literales reutilizan el mismo objeto. `==` compara referencia, `equals` compara contenido. `intern()` devuelve la referencia canónica del pool.
+
+**Dificultad o error más relevante:** Falló la predicción de inmutabilidad (predijo "hola mundo" en vez de "hola"); error valioso — lo corrigió entendiendo que el resultado se desecha si no se asigna. Gap de 17 días (19 oct → 5 nov) por trabajo en BBVA (instalaciones a producción), no por hueva.
+
+**Lección clave (escrita por Kaleb):** «Aprendí la inmutabilidad de los Strings, así como algunos de sus métodos.»
+
+**Commit:** `3515a52` (docs diario) + `22743b2` (feat strings).
+
+**Próximo paso:** `StringBuilder` (mutable vs inmutable) y concatenación en bucles. **Práctica paralela obligatoria: 30 min diarios de LeetCode** (empezar con ejercicios de strings).
+
+**Nota:** Fase 1 iniciada. El tema de Strings (el más repetido en el APX) quedó dominado.

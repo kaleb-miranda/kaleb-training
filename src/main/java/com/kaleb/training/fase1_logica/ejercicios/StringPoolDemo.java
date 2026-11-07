@@ -1,4 +1,5 @@
-package main.java.com.kaleb.training.fase1_logica.ejercicios;
+package com.kaleb.training.fase1_logica.ejercicios;
+
 
 public class StringPoolDemo {
 
@@ -16,6 +17,8 @@ public class StringPoolDemo {
         String x = "hola";
         x.concat(" mundo");
         System.out.println("x = " + x);
+
+        
 
     }
 }

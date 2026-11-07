@@ -1,0 +1,36 @@
+package com.kaleb.training.fase1_logica.ejercicios;
+
+/**
+ * Enfoque: dos punteros (left desde el inicio, right desde el final)
+ * que comparan los extremos y avanzan hacia el centro.
+ *
+ * Complejidad:
+ *   - Tiempo: O(n), donde n es el número de dígitos.
+ *   - Espacio: O(n), por el String que crea String.valueOf.
+ * Leccion: Para optimizar el espacio, se podría revertir la mitad del número y compararla con la otra mitad.
+ * 
+ * enfoque alternativo: convertir el número a String y usar dos punteros para comparar los caracteres desde ambos extremos.
+ * 
+ */
+
+public class LeetCode {
+
+    public static void main(String[] args) {
+        int x = 121;
+        boolean result = isPalindrome(x);
+    }
+
+    public static boolean isPalindrome(int x) {
+        String s = String.valueOf(x);
+        int left = 0;
+        int right = s.length() - 1;
+        while (left < right) {
+            if (s.charAt(left) != s.charAt(right)) {
+                return false;
+            }
+            left++;
+            right--;
+        }
+        return true;
+    }
+}
