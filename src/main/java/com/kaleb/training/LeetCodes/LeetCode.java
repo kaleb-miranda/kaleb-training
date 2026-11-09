@@ -1,4 +1,4 @@
-package com.kaleb.training.fase1_logica.ejercicios;
+package com.kaleb.training.LeetCodes;
 
 public class LeetCode {
 

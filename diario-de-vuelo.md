@@ -208,3 +208,19 @@ Revisado `estudio_con_clave.md` (254 preguntas de la Certificación APX).
 **Próximo paso:** `StringBuilder` (mutable vs inmutable) y concatenación en bucles. **Práctica paralela obligatoria: 30 min diarios de LeetCode** (empezar con ejercicios de strings).
 
 **Nota:** Fase 1 iniciada. El tema de Strings (el más repetido en el APX) quedó dominado.
+
+---
+
+## Sesión 10 - 7 de noviembre de 2026
+
+**Tema trabajado:** Fase 1 (Java puro) — repaso de Strings, Javadoc, `StringBuilder` vs `String`, ejercicio LeetCode Palindrome.
+
+**Aprendizaje principal:** `StringBuilder` es mutable (`append` en el sitio → O(n)), mientras que `String` es inmutable (`+=` crea un String nuevo copiando todo → O(n²) en bucles). Javadoc para documentar enfoque + complejidad. `package` = nombre lógico (NO la ruta de carpetas; `src/main/java/` no forma parte del package).
+
+**Dificultad o error más relevante:** (1) Resistencia a documentar — argumentó que el `.md` era "redundante" y "no es Java"; se llegó a compromiso: Javadoc en vez de `.md` aparte. (2) Dijo "listo" sin haber hecho el trabajo (no guardó cambios en VS Code). Lección impartida: "listo" ≠ "hecho", y guardar (`Ctrl+S`) antes de tocar Git. (3) Escribió mal el `package` (`main.java.` prefix) confundiendo ruta con nombre lógico.
+
+**Lección clave (escrita por Kaleb):** «Aprendí acerca de la clase StringBuilder, que es mutable y no llena la memoria de Strings nuevos cuando se concatena algo nuevo.»
+
+**Commit:** `cbeabdf` + `3e0e9d9` (ejercicio LeetCode corregido).
+
+**Próximo paso:** Continuar Fase 1 — profundizar colecciones (`List`, `Set`, `Map`) y más práctica LeetCode (30 min/día). El tema de concatenación en bucles quedó entendido.
