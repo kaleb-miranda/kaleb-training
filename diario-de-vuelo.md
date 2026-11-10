@@ -224,3 +224,23 @@ Revisado `estudio_con_clave.md` (254 preguntas de la Certificación APX).
 **Commit:** `cbeabdf` + `3e0e9d9` (ejercicio LeetCode corregido).
 
 **Próximo paso:** Continuar Fase 1 — profundizar colecciones (`List`, `Set`, `Map`) y más práctica LeetCode (30 min/día). El tema de concatenación en bucles quedó entendido.
+
+---
+
+## Sesión 11 - 7 de noviembre de 2026
+
+**Tema trabajado:** Fase 1 (Java puro) — colecciones (teoría: `List`, `Set`, `Map`, `Queue`) y `HashMap` (vía TwoSum).
+
+**Aprendizaje principal:** `HashMap` = arreglo + función hash → acceso O(1). Distinción `Map` (pares clave→valor) vs `Set` (elementos únicos; "un Set es un Map sin valores"). Patrón de nombres de colecciones: PREFIJO (Hash/Tree/Linked = mecanismo) + SUFIJO (Map/Set/List = familia).
+
+**Dificultad o error más relevante:** Confusión entre `Map` y `Set` por el parecido de nombres; resuelta con el patrón prefijo/sufijo.
+
+**Feedback del alumno (importante):** Kaleb expresó que sentía "juicio" en vez de "enseñanza": *"no veo enseñanza real, solo me juzgas... un maestro da teoría, enseña y ponemos en práctica."* Feedback válido y atendido.
+
+**Recalibración del mentor:** Se ajustó el método pedagógico. Se estaba sobre-aplicando la técnica Socrática (forzar a adivinar) en detrimento de la teoría clara. Nuevo método: **TEORÍA → PRÁCTICA → REVISIÓN** (teoría por capas primero, luego práctica, luego revisión sin juicio).
+
+**Lección clave (escrita por Kaleb):** «Aprendí acerca de las colecciones disponibles como HashMap, HashSet, ArrayList, entre otras. Espero mañana poder poner en práctica las que se usan normalmente en el mundo laboral.»
+
+**Commit:** `418b478` (reorganización `LeetCodes/` + ejercicio TwoSum).
+
+**Próximo paso:** Práctica en código de las 3 familias (List/Set/Map) + `Queue`. Continuar LeetCode/Exercism 30 min/día (Kaleb evalúa cambiar a Exercism).
