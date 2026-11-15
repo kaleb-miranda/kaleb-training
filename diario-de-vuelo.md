@@ -244,3 +244,19 @@ Revisado `estudio_con_clave.md` (254 preguntas de la Certificación APX).
 **Commit:** `418b478` (reorganización `LeetCodes/` + ejercicio TwoSum).
 
 **Próximo paso:** Práctica en código de las 3 familias (List/Set/Map) + `Queue`. Continuar LeetCode/Exercism 30 min/día (Kaleb evalúa cambiar a Exercism).
+
+---
+
+## Sesión 12 - 9 de noviembre de 2026
+
+**Tema trabajado:** Fase 1 (Java puro) — práctica de colecciones: `ArrayList`, `HashSet`, `HashMap` (ejercicio "Conteo de compras").
+
+**Aprendizaje principal:** Práctica real de las 3 colecciones: `ArrayList` (orden + duplicados), `HashSet` (dedup automático), `HashMap` (conteo con `getOrDefault`). Distinción clave vs valor en `Map` (claves únicas, valores pueden repetirse). Conectó el concepto con su trabajo real: usar un `id` como clave para tokenizar TDC (`id → tarjeta/token`).
+
+**Dificultad o error más relevante:** (1) Inconsistencia entre colecciones — agregó "melon" solo a la lista, no a únicos/conteo; corregido iterando `lista` como fuente única. (2) Confusión clave vs valor: pensó que el dígito (el conteo) era la clave; aclarado con la notación `{clave=valor}`.
+
+**Lección clave (escrita por Kaleb):** «Hoy aprendí a usar los métodos de las listas disponibles y de qué manera usar cada una de ellas.»
+
+**Commit:** `891366f` — `feat: se añade clase de practica de arrayList, HashMap y HashSet`
+
+**Próximo paso:** Continuar colecciones — `Queue`/`Deque`, iteración sobre colecciones, y el patrón "agrupar por" con `Map`. Seguir práctica diaria.
