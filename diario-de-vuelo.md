@@ -260,3 +260,19 @@ Revisado `estudio_con_clave.md` (254 preguntas de la Certificación APX).
 **Commit:** `891366f` — `feat: se añade clase de practica de arrayList, HashMap y HashSet`
 
 **Próximo paso:** Continuar colecciones — `Queue`/`Deque`, iteración sobre colecciones, y el patrón "agrupar por" con `Map`. Seguir práctica diaria.
+
+---
+
+## Sesión 13 - 14 de noviembre de 2026
+
+**Tema trabajado:** Fase 1 (Java puro) — `Queue`/`Deque` (teoría) + `computeIfAbsent` + lambdas + patrón "agrupar por".
+
+**Aprendizaje principal:** `Queue` = fila FIFO (`offer`/`poll`/`peek`). `computeIfAbsent(clave, fábrica)` = si la clave no existe, la fabrica con la lambda; siempre devuelve el valor. Lambda `k -> new ArrayList<>()` = función de flecha (parámetro → cuerpo), material de Fase 3 pero intuición dada. Patrón "agrupar por" (junior: 4 líneas con if; senior: 1 línea con computeIfAbsent).
+
+**Dificultad o error más relevante:** Confusión sobre la lambda (función de flecha) — aclarada: la lambda solo se ejecuta cuando la clave NO existe. Commit con tipo equivocado (`fix` en vez de `feat`) — se le dio la regla mnemotécnica (fix = arreglar roto, feat = crear nuevo).
+
+**Lección clave (escrita por Kaleb):** «En `k -> new ArrayList<>()`, el valor que se crea (una lista vacía) no depende de la clave. La lambda solo debe devolver un contenedor vacío, y para eso no necesita saber la clave. `k` es un parámetro obligatorio por el contrato de la interfaz, no porque lo necesites.»
+
+**Commit:** `1c9cee9` — `fix: se agrega ejercicio de agrupar informacion...` (tipo incorrecto: era feat).
+
+**Próximo paso:** Iteración sobre colecciones (`for-each` vs `forEach`), más patrones con `Map`, y profundizar en lambdas (Fase 3). Seguir práctica diaria (LeetCode/Exercism).
